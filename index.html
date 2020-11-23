@@ -1,0 +1,187 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Методология БЭМ</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<header class="header">
+			<div class="header__column">
+				<div class="header__logo">
+					<img src="img/header/Layer_33_copy_2.png" alt="">
+				</div>
+				<div class="header__title">
+					Clear, smart, attractive design
+				</div>
+				<div class="header__subtitle">
+					for your app, logo, website
+				</div>
+				<div class="header__link link">
+					<a href="#">read more</a>
+				</div>
+			</div>
+			<nav class="menu header__menu">
+				<a href="#" class="menu__item menu__item-active">ALL</a>
+				<a href="#" class="menu__item">WEB</a>
+				<a href="#" class="menu__item">APPS</a>
+				<a href="#" class="menu__item">OTHER</a>
+			</nav>			
+		</header>
+		<div class="about">
+			<div class="about__body">
+				<div class="about__header">
+					<div class="about__title title">ABOUT</div>
+					<div class="about__text">We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. In our design process, we make sure to stay one step ahead of the latest trends, never forgetting to abide by key web standards.</div>
+				</div>
+				<div class="about__row">
+					<div class="about__column">
+						<div class="item-about">
+							<div class="item-about__icon">
+								<img src="img/about/01.png" alt="" />
+							</div>
+							<div class="item-about__title">WEB</div>
+							<div class="item-about__text">We tend to deliver unique and functional design, through innovation and creativity.</div>
+						</div>
+					</div>
+					<div class="about__column">
+						<div class="item-about">
+							<div class="item-about__icon">
+								<img src="img/about/02.png" alt="" />
+							</div>
+							<div class="item-about__title">iOS AND ANDROID</div>
+							<div class="item-about__text">We seek to bring new businesses and customers closer together through valuable insights and proper targeting.</div>
+						</div>
+					</div>
+					<div class="about__column">
+						<div class="item-about">
+							<div class="item-about__icon">
+								<img src="img/about/03.png" alt="" />
+							</div>
+							<div class="item-about__title">MARKETING</div>
+							<div class="item-about__text">We’ll help you establish the right goals and build the right paths. Success depends on setting the right intention.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio">
+			<div class="portfolio__container">
+				<div class="portfolio__title title">portfolio</div>
+				<nav class="menu portfolio__menu">
+					<a href="#" class="menu__item menu__item-active">ALL</a>
+					<a href="#" class="menu__item">WEB</a>
+					<a href="#" class="menu__item">APPS</a>
+					<a href="#" class="menu__item">OTHER</a>
+				</nav>
+				<div class="portfolio__gallery">
+					<div class="portfolio__image">
+						<img src="img/portfolio/block1-1.jpg" alt="">
+					</div>
+					<div class="portfolio__image">
+						<img src="img/portfolio/block1-1.jpg" alt="">
+					</div>
+					<div class="portfolio__image">
+						<img src="img/portfolio/block1-1.jpg" alt="">
+					</div>
+					<div class="portfolio__image">
+						<img src="img/portfolio/block1-1.jpg" alt="">
+					</div>
+					<div class="portfolio__image">
+						<img src="img/portfolio/block1-1.jpg" alt="">
+					</div>
+					<div class="portfolio__image">
+						<img src="img/portfolio/block1-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="link portfolio__link">
+					<a href="#">Read more</a>
+				</div>
+			</div>
+		</div>
+		<div class="partners">
+			<div class="partners__container">
+				<div class="partners__title">Our partners</div>
+				<div class="partners__row">
+					<div class="partners__item">
+						<img src="img/pertners/logo-2.svg" alt="" class="partners__icon">
+					</div>
+					<div class="partners__item">
+						<img src="img/pertners/Archiq.svg" alt="" class="partners__icon">
+					</div>
+					<div class="partners__item">
+						<img src="img/pertners/Thomsoon.svg" alt="" class="partners__icon">
+					</div>
+					<div class="partners__item">
+						<img src="img/pertners/alex.svg" alt="" class="partners__icon">
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="contact">
+			<div class="contact__container">
+				<div class="contact__title title">Contact</div>
+				<div class="contact__row">	
+					<div class="contact__column">
+						<form class="contact__form form" action="#">
+							<fieldset class="form__info">
+								<label for="username">
+									Your name
+									<input type="text" name="username" value="">
+								</label>
+								<label for="usermail">
+									Your e-mail
+									<input type="email" name="usermail" value="">
+								</label>
+								<label for="usermessage">
+									Message
+									<textarea name="usermessage"></textarea>
+								</label>
+							</fieldset>
+							<fieldset class="form__submit">
+								<button type="submit" name="submit">Send</button>
+							</fieldset>								
+						</form>
+					</div>
+					<div class="contact__column">
+						<div class="contact__text">
+							Have an idea for a project? Just looking to explore and see the possibilities? I'm here to help.
+						</div>
+						<div class="contact__text contact__text_bold">
+							Postma Elena
+						</div>
+						<div class="contact__social"></div>
+						<div class="contact__text">
+							e-mail: <span class="contact__text_bold">postma.elena@gmail.com</span>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<a href="#" class="footer__icon">
+						<img src="img/footer/Layer 33 copy 3.svg" alt="">
+					</a>
+					<div class="footer__menu">
+						<a href="#" class="footer__item">Home</a>
+						<a href="#" class="footer__item">Facebook</a>
+						<a href="#" class="footer__item">Linkedin</a>
+						<a href="#" class="footer__item">Contact</a>
+					</div>
+					<div class="footer__copyright">© 2015. All Rights Reserved</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/script.js"></script>
+</html>
